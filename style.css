@@ -1,0 +1,83 @@
+/* now lets add some styling to the form */
+body{
+    background: linear-gradient(to left,#9ef596,#7baabe);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* providing the color to the h1 tag */
+h1{
+    color: rgb(19,1,1);
+}
+
+/* styling the form */
+form{
+    background-color: #FFc;
+    max-width: 35rem;
+    padding: 55px 15px;
+    margin: 50px auto;
+    box-shadow: 2px 5px 10px rgb(236,16,16,0.5);
+}
+
+/* placement of the form */
+.form_container{
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+/* styling the labels */
+.form_container label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1%;
+}
+
+/* styling the the tedxtboxes , date and email */
+.form_container input[type="text"],
+.form_container input[type="date"],
+.form_container input[type="email"]
+{
+    display: inline-block;
+    height: 25px;
+    width: 200px;
+    cursor: pointer;
+}
+/* styling the range and radio buttons */
+.form_container input[type="range"],
+.form_container input[type="radio"]
+{
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}
+
+/* styling the textarea */
+.form_container textarea{
+    border: 1px solid rgb(240,227,227);
+    text-align: left;
+    border-radius: 5px;
+    padding: 30px;
+    display: block;
+    width: 550px;
+}
+
+/* styling the button */
+button{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+    padding: 5px;
+    width: 300px;
+    cursor: pointer;
+}
+/* author */
+#author a{
+    text-decoration: none;
+    cursor: pointer;
+    color: red;
+}

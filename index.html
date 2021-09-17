@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <!-- linking to the external style sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PROJECT STACK</h1>
+    <!-- creating a form -->
+    <form action="mailto:projectstack@gmail.com" method="POST" enctype="text/plain">
+    <!-- the mail to to use to send the indo to your mail id -->
+
+    <div class="form_container">
+        <label for="name">Enter your name</label>
+        <input type="text" name="first name" placeholder="FIRST NAME" required>
+        <input type="text" name="last name" placeholder="LAST NAME" required>
+    </div>
+    <!-- inserting the email id -->
+    <div class="form_container">
+        <label for="email">Enter your email-id</label>
+        <input type="email" placeholder="projectstack@gmail.com" name="email-id" required>
+    </div>
+
+    <!-- inserting the date -->
+    <div class="form_container">
+        <label for="date of birth">Date of birth</label>
+        <input type="date" name="dateofbirth" required>
+    </div>
+    <!-- asking the questions you can ask any questions of your wish -->
+    <div class="form_container">
+        <label for="questions">How did your hear about our channel</label>
+        <input type="radio" name="question" value="socialmedia" required>social media<br>
+        <input type="radio" name="question" value="advertisement" required>advertisement<br>
+        <input type="radio" name="question" value="search engine" required>search engine<br>
+        <input type="radio" name="question" value="friends" required>friends<br>
+        <input type="radio" name="question" value="other" required>other
+    </div>
+
+    <div class="form_container">
+        <label for="questions">How satisfied are you with our channel</label>
+        <input type="radio" name="satisfied" value="very satisfied" required>very satisfied<br>
+        <input type="radio" name="satisfied" value="satisfied" required>satisfied<br>
+        <input type="radio" name="satisfied" value="neutral" required>neutral<br>
+        <input type="radio" name="satisfied" value="un satisfied" required>un satisfied<br>
+        <input type="radio" name="satisfied" value="very un satisfied" required>very un satisfied<br>
+    </div>
+    <!-- inserting the range elements -->
+    <div class="form_container">
+        <label for="rate">Rate our channel</label>
+        <input type="range" name="rating" required>
+    </div>
+    
+    <div class="form_container">
+        <label for="questions">Would you recommened this channel to your friends</label>
+        <input type="radio" name="recommend" value="yes" required>yes<br>
+        <input type="radio" name="recommend" value="no" required>no
+    </div>
+    <!-- inserting the textarea to add comments -->
+    <div class="form_container">
+        <label for="comments">Any other comments</label>
+    </div>
+    <textarea name="comments" id="text" cols="40" rows="4"></textarea>
+
+    <!-- inserting the submit button to submit the form -->
+    <button type="submit">submit</button>
+
+    </form>
+    <p id="author">MADE BY <a href="#projectstack">projectstack</a> </p>
+</body>
+</html>
